@@ -1,6 +1,15 @@
 import pandas as pd
 import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import io
 import boto3
+
+AWS_S3_BUCKET = "hranalyticsdata"
+AWS_ACCESS_KEY_ID = "AKIAW2XDBWNOZENLQUK6"
+AWS_SECRET_ACCESS_KEY  = "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"
+
+
 
 class Transformation:
     def __init__(self, df):
