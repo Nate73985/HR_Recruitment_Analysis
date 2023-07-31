@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 import io
 import boto3
 
-AWS_S3_BUCKET = "AWS_S3_BUCKET"
-AWS_ACCESS_KEY_ID = "AWS_ACCESS_KEY_ID"
-AWS_SECRET_ACCESS_KEY  = "AWS_SECRET_ACCESS_KEY"
+AWS_S3_BUCKET = AWS_S3_BUCKET
+AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY  = AWS_SECRET_ACCESS_KEY
 
-
+KEY CODED
 
 class Transformation:
     def __init__(self, df):
