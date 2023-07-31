@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import io
 import boto3
 
-AWS_S3_BUCKET = "hranalyticsdata"
-AWS_ACCESS_KEY_ID = "AKIAW2XDBWNOSRSAYPUT"
-AWS_SECRET_ACCESS_KEY  = "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"
+AWS_S3_BUCKET = "AWS_S3_BUCKET"
+AWS_ACCESS_KEY_ID = "AWS_ACCESS_KEY_ID"
+AWS_SECRET_ACCESS_KEY  = "AWS_SECRET_ACCESS_KEY"
 
 
 
